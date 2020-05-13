@@ -1,4 +1,4 @@
-#define BEFORE 1
+#define BEFORE 0
 
 #if BEFORE
 #include <iostream>
