@@ -4,3 +4,5 @@ project(design-patterns-cpp)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(singleton 01_singleton.cpp)
+add_executable(factory 02_factory.cpp)
+add_executable(abstract_factory 03_abstract_factory.cpp)

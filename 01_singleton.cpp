@@ -31,7 +31,7 @@ class Singleton {
   void operator=(Singleton const &) = delete;
 
   // Remove move
-  Singleton(Singleton  &&) = delete;
+  Singleton(Singleton &&) = delete;
   void operator=(Singleton &&) = delete;
 #endif
 
@@ -43,7 +43,7 @@ class Singleton {
 };
 
 int main() {
-  Singleton &instance = Singleton::getInstance();
+  auto &instance = Singleton::getInstance();
 
   // See the errors
   Singleton singleton;
